@@ -11,6 +11,16 @@ public class Person {
         this.dni = dni;
     }
 
+    public String getPerson() {
+        return new Person(this.gender, this.birthdate, this.dni);
+    }
+    
+    public String setPerson() {
+        this.gender = gender;
+        this.birthdate = birthdate;
+        this.dni = dni;
+    }
+    
     public String getGender() {
         return gender;
     }
